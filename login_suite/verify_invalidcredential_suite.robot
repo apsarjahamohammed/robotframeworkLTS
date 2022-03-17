@@ -4,6 +4,7 @@ Documentation   This suite will handles all the tedt cases related to valid
 
 Resource    ../Resource/Base/CommonFunctionality.resource
 
+
 Test Teardown       Close Browser
 
 *** Test Cases ***
@@ -12,6 +13,5 @@ verify invalid credential Test
     Input Text    id=txtUsername    Apsar
     Input Password    id=txtPassword    admin123
     Click Element    id=btnLogin
-    #Page Should Contain    My Info
-    Element Text Should Be    id=spanMesaage    invalid credentails
+    Element Text Should Be    id=spanMessage    Invalid credentials
 
