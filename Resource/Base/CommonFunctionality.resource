@@ -9,3 +9,4 @@ Launch Browser
     Maximize Browser Window
     Set Selenium Implicit Wait    30s
     Go To    url=https://opensource-demo.orangehrmlive.com/
+
