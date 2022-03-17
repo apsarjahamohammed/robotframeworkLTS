@@ -10,9 +10,10 @@ Test Teardown       Close Browser
 Test Template       verify Invalid credential Template
 
 *** Test Cases ***
-TC1     john    john123     invalid credentials
-TC2     peter   peter123     invalid credentials
-
+TC1     john    john123     Invalid credentials
+TC2     peter   peter123     Invalid credentials
+TC3     ${EMPTY}    admin123    Username cannot be empty
+TC4     apsar     ${EMPTY}      Password cannot be empty
 
 *** Keywords ***
 verify Invalid credential Template
