@@ -4,14 +4,23 @@ Documentation   This suite will handles all the tedt cases related to valid
 
 Resource    ../Resource/Base/CommonFunctionality.resource
 
-
+Test Setup      Launch Browser
 Test Teardown       Close Browser
 
+Test Template       verify Invalid credential Template
+
 *** Test Cases ***
-verify invalid credential Test
-    Launch Browser
-    Input Text    id=txtUsername    Apsar
-    Input Password    id=txtPassword    admin123
+TC1     john    john123     invalid credentials
+TC2     peter   peter123     invalid credentials
+
+
+*** Keywords ***
+verify Invalid credential Template
+    [Arguments]     ${username}     ${password}     ${expected_error}
+    Input Text    id=txtUsername    ${username}
+    Input Password    id=txtPassword    ${password}
     Click Element    id=btnLogin
-    Element Text Should Be    id=spanMessage    Invalid credentials
+    Element Text Should Be      id=spanMessage    ${expected_error}
+
+
 
