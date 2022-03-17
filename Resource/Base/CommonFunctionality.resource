@@ -8,6 +8,7 @@ Library     SeleniumLibrary
 ${BROWSER_NAME}     chrome
 ${URL}      https://opensource-demo.orangehrmlive.com/
 
+
 *** Keywords ***
 Launch Browser
     Open Browser    browser=chrome      executable_path=${EXECDIR}${/}driver${/}chromedriver.exe
