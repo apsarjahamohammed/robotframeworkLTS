@@ -10,7 +10,7 @@ ${URL}      https://opensource-demo.orangehrmlive.com/
 
 
 *** Keywords ***
-Launch Browser
+Launch Browser And Navigate To URL
     Open Browser    browser=chrome      executable_path=${EXECDIR}${/}driver${/}chromedriver.exe
     Maximize Browser Window
     Set Selenium Implicit Wait    30s
