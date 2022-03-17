@@ -9,10 +9,8 @@ Test Teardown       Close Browser
 *** Test Cases ***
 verify valid credential Test
     Launch Browser
-    Input Text    id=txtUsername    Admin
+    Input Text    id=txtUsername    Apsar
     Input Password    id=txtPassword    admin123
     Click Element    id=btnLogin
-    Page Should Contain    My Info
-
-
+    #Page Should Contain    My Info
 
