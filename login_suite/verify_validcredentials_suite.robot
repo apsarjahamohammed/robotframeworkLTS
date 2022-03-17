@@ -4,6 +4,7 @@ Documentation   This suite will handles all the tedt cases related to valid
 
 Resource    ../Resource/Base/CommonFunctionality.resource
 
+
 Test Teardown       Close Browser
 
 *** Test Cases ***
