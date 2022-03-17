@@ -25,5 +25,5 @@ Verify Add Emergency Contact Template
     Input Text    id=emgcontacts_relationship    ${relationship}
     Input Text    id=emgcontacts_homePhone    ${home_telephone}
     Click Element    id=btnSaveEContact
-    Table Should Contain    id=emgcontact_list    Sat
-    Table Should Contain    id=emgcontact_list    78787
+    Table Should Contain    id=emgcontact_list    ${contact_name}
+    Table Should Contain    id=emgcontact_list    ${home_telephone}
