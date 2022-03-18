@@ -4,7 +4,7 @@ Documentation   This suite will handles all the tedt cases related to valid
 
 Resource    ../Resource/Base/CommonFunctionality.resource
 
-Task Setup          Launch Browser
+Task Setup          Launch Browser And Navigate To URL
 Test Teardown       Close Browser
 
 *** Test Cases ***
