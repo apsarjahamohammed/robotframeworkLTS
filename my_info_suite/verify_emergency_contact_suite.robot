@@ -29,3 +29,9 @@ Verify Add Emergency Contact Template
     Click Element    id=btnSaveEContact
     Table Should Contain    id=emgcontact_list    ${contact_name}
     Table Should Contain    id=emgcontact_list    ${home_telephone}
+
+
+
+
+
+
