@@ -2,6 +2,7 @@
 Documentation      This suite handles test case related to emergency contact
 
 Resource    ../Resource/Base/CommonFunctionality.resource
+Resource    ../Resource/Pages/LoginPage.resource
 
 Library     DataDriver      file=../test_data/orange_data.xlsx      sheet_name=AddEmergencyContacts
 
