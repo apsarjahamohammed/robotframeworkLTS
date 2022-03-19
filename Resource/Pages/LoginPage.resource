@@ -6,6 +6,7 @@ Resource    ../Base/CommonFunctionality.resource
 *** Variables ***
 ${USERNAME_LOCATOR}     id=txtUsername
 
+
 *** Keywords ***
 Enter Username
     [Arguments]     ${username}
